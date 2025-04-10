@@ -422,7 +422,6 @@
         "volume",
         "network",
         "bluetooth",
-        "battery",
         "clock",
         "notifications"
       ],

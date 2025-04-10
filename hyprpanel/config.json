@@ -411,7 +411,7 @@
   "theme.osd.border.color": "#8ff0a4",
   "theme.bar.menus.card_radius": "1em",
   "bar.layouts": {
-    "0": {
+    "1": {
       "left": [
         "dashboard",
         "windowtitle",

@@ -1,9 +1,12 @@
 # Dependenses 
 ## Arch
+### Deps
 `sudo pacman -Syu hyprland hyprlock hypridle rofi-wayland kitty otf-commit-mono-nerd`
+
 `yay -S ags-hyprpanel-git pyprland`
 ### Cosmetic
 `yay -S rose-pine-hyprcursor`
+
 `yay -S breezex-cursor-theme`
 ### Switch to wpa_supplicant (if on IWD)
 This is because hyprpanel dussent support *IWD*

@@ -1,7 +1,7 @@
 # Dependenses 
 ## Arch
 ### Deps
-`sudo pacman -Syu hyprland hyprlock hypridle rofi-wayland kitty otf-commit-mono-nerd`
+`sudo pacman -Syu hyprland hyprlock hypridle rofi-wayland kitty otf-commit-mono-nerd swww`
 
 `yay -S ags-hyprpanel-git pyprland`
 ### Cosmetic
@@ -28,3 +28,8 @@ git clone https://github.com/Poellebob/hypr-dotfile-v1.git
 cd hypr-dotfile-v1
 cp -r * ~/.config/
 ```
+# Config
+## Wallpaper 
+`swww img <path/to/wall>`
+This sets the wallpaper permenetly.
+You can ofcourse change it by doing the same command

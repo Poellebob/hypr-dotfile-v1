@@ -461,7 +461,7 @@
   "menus.dashboard.shortcuts.right.shortcut1.icon": "",
   "menus.dashboard.shortcuts.right.shortcut1.tooltip": "Godot",
   "menus.dashboard.shortcuts.right.shortcut3.icon": "",
-  "menus.dashboard.shortcuts.right.shortcut3.command": "code",
+  "menus.dashboard.shortcuts.right.shortcut3.command": "code --ozone-platform=wayland",
   "menus.dashboard.shortcuts.right.shortcut3.tooltip": "VS Code",
   "theme.bar.shadowMargins": "0px 0px 3px 0px",
   "theme.bar.margin_sides": "0em",

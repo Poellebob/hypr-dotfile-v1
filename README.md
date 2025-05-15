@@ -9,7 +9,7 @@
 
 `yay -S breezex-cursor-theme`
 ### Switch to wpa_supplicant (if on IWD)
-This is because hyprpanel dussent support *IWD*
+This is because hyprpanel does not support *IWD*
 ```bash
 sudo systemctl stop iwd
 sudo systemctl disable iwd

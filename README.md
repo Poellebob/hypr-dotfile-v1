@@ -22,6 +22,13 @@ sudo systemctl restart NetworkManager
 ### For extra wifi settings install `nm-connection-editor`
 `sudo pacman -Sy nm-connection-editor`
 
+### Optional
+```bash
+ sudo pacman -S --needed wireplumber libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python upower pacman-contrib power-profiles-daemon gvfs
+
+yay -S aylurs-gtk-shell
+```
+
 # Installation
 ```bash
 git clone https://github.com/Poellebob/hypr-dotfile-v1.git

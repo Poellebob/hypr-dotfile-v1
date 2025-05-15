@@ -19,6 +19,12 @@ sudo systemctl enable --now wpa_supplicant
 
 sudo systemctl restart NetworkManager
 ```
+### Make KDE apps work
+```bash
+sudo pacman -Sy archlinux-xdg-menu xdg-desktop-portal-hyprland
+sudo update-desktop-database
+sudo mv arch-applications.menu applications.menu 
+```
 ### For extra wifi settings install `nm-connection-editor`
 `sudo pacman -Sy nm-connection-editor`
 

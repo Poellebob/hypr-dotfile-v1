@@ -1,7 +1,7 @@
 # Dependenses 
 ## Arch
 ### Deps
-`sudo pacman -Syu hyprland hyprlock hypridle rofi-wayland kitty otf-commit-mono-nerd swww`
+`sudo pacman -Syu hyprland hyprlock hypridle rofi-wayland kitty ttf-jetbrains-mono-nerd swww`
 
 `yay -S ags-hyprpanel-git pyprland`
 ### Cosmetic

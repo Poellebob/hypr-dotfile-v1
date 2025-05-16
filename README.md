@@ -4,12 +4,32 @@
 `sudo pacman -Syu hyprland hyprlock hypridle rofi-wayland kitty ttf-jetbrains-mono-nerd swww`
 
 `yay -S ags-hyprpanel-git pyprland`
+
+**ags-hyprpanel**
+***My fork***
+My fork makes it posseble to customize all the shourtcuts in the Dashbord.
+```bash
+sudo pacman -Sy --needed wireplumber libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python upower pacman-contrib power-profiles-daemon gvfs wf-recorder meson npm nodejs ninja
+
+yay -Sy --needed aylurs-gtk-shell-git grimblast-git hyprpicker matugen-bin python-gpustat hyprsunset-git
+#--noconfirm
+
+git clone https://github.com/Poellebob/HyprPanel.git
+cd HyprPanel
+npm install
+meson setup build
+meson compile -C build
+meson install -C build
+```
+***Official aur package***
+`yay -S ags-hyprpanel-git`
+
 ### Cosmetic
 `yay -S rose-pine-hyprcursor`
 
 `yay -S breezex-cursor-theme`
 ### Switch to wpa_supplicant (if on IWD)
-This is because hyprpanel does not support *IWD*
+This is because hyprpanel does not support *IWD* (will still work with KDE and Gnome)
 ```bash
 sudo systemctl stop iwd
 sudo systemctl disable iwd
@@ -30,7 +50,7 @@ sudo mv /etc/xdg/menus/arch-applications.menu /etc/xdg/menus/applications.menu
 
 ### Optional
 ```bash
- sudo pacman -S --needed wireplumber libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python upower pacman-contrib power-profiles-daemon gvfs
+ sudo pacman -S --needed wireplumber libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python upower pacman-contrib power-profiles-daemon gvfs cliphist
 
 yay -S aylurs-gtk-shell
 ```

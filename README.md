@@ -25,9 +25,10 @@ meson install -C build
 `yay -S ags-hyprpanel-git`
 
 ### Cosmetic
-`yay -S rose-pine-hyprcursor`
-
-`yay -S breezex-cursor-theme`
+**Cursors**
+```bash
+yay -S rose-pine-hyprcursor rose-pine-cursor
+```
 ### Switch to wpa_supplicant (if on IWD)
 This is because hyprpanel does not support *IWD* (will still work with KDE and Gnome)
 ```bash

@@ -1,7 +1,7 @@
 # Dependenses 
 ## Arch
 ### Deps
-`sudo pacman -Syu hyprland hyprlock hypridle rofi-wayland kitty ttf-jetbrains-mono-nerd swww qt6-wayland qt5-wayland qt5ct kvantum`
+`sudo pacman -Syu hyprland hyprlock hypridle rofi-wayland kitty ttf-jetbrains-mono-nerd swww qt6-wayland qt5-wayland qt5ct`
 
 `yay -S ags-hyprpanel-git pyprland qt6ct-kde`
 

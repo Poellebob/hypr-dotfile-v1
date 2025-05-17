@@ -70,4 +70,5 @@ cp -r * ~/.config/
 ## Wallpaper 
 `swww img <path/to/wall>`
 This sets the wallpaper permenetly.
-You can ofcourse change it by doing the same command
+
+You can of course change it by doing the same command.

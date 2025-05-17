@@ -6,7 +6,7 @@ sudo pacman -Syu hyprland hyprlock hypridle rofi-wayland kitty ttf-jetbrains-mon
 ```
 
 ```bash
-yay -S ags-hyprpanel-git pyprland qt6ct-kde
+yay -S pyprland qt6ct-kde
 ```
 
 **ags-hyprpanel**

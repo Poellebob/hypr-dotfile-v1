@@ -461,8 +461,8 @@
   "menus.dashboard.shortcuts.right.shortcut1.icon": "",
   "menus.dashboard.shortcuts.right.shortcut1.tooltip": "Godot",
   "menus.dashboard.shortcuts.right.shortcut3.icon": "",
-  "menus.dashboard.shortcuts.right.shortcut3.command": "code --ozone-platform=wayland",
-  "menus.dashboard.shortcuts.right.shortcut3.tooltip": "VS Code",
+  "menus.dashboard.shortcuts.right.shortcut3.command": "code",
+  "menus.dashboard.shortcuts.right.shortcut3.tooltip": "VS code",
   "theme.bar.shadowMargins": "0px 0px 3px 0px",
   "theme.bar.margin_sides": "0em",
   "bar.workspaces.show_icons": false,
@@ -481,13 +481,5 @@
   "theme.bar.buttons.workspaces.enableBorder": false,
   "theme.bar.buttons.windowtitle.enableBorder": false,
   "bar.workspaces.spacing": 1.5,
-  "bar.workspaces.ignored": "^(0|-([1-9]|[1-9][0-9]|100))$",
-  "menus.clock.weather.location": "Copenhagen",
-  "bar.clock.format": "%a %b %d  %H:%M:%S",
-  "menus.dashboard.shortcuts.right.shortcut2.tooltip": "Its steam dumbass",
-  "menus.dashboard.shortcuts.right.shortcut2.command": "steam",
-  "menus.dashboard.shortcuts.right.shortcut2.icon": "󰓓",
-  "bar.autoHide": "never",
-  "theme.bar.border.location": "none",
-  "menus.dashboard.stats.enable_gpu": true
+  "bar.workspaces.ignored": "^(0|-([1-9]|[1-9][0-9]|100))$"
 }

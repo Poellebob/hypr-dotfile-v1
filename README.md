@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/b6a5f2bb-609c-49a2-b681-3a4fe2a4cb0c)
+
 # Dependenses 
 ## Arch
 ### Deps

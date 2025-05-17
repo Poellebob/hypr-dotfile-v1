@@ -1,9 +1,9 @@
 # Dependenses 
 ## Arch
 ### Deps
-`sudo pacman -Syu hyprland hyprlock hypridle rofi-wayland kitty ttf-jetbrains-mono-nerd swww`
+`sudo pacman -Syu hyprland hyprlock hypridle rofi-wayland kitty ttf-jetbrains-mono-nerd swww qt6-wayland qt5-wayland qt5ct kvantum`
 
-`yay -S ags-hyprpanel-git pyprland`
+`yay -S ags-hyprpanel-git pyprland qt6ct-kde`
 
 **ags-hyprpanel**
 ***My fork***

@@ -4,7 +4,7 @@
 ## Arch
 ### Deps
 ```bash
-sudo pacman -Syu hyprland hyprlock hypridle rofi-wayland kitty ttf-jetbrains-mono-nerd swww qt6-wayland qt5-wayland qt5ct grim slurp swappy cliphist
+sudo pacman -Syu --needed wireplumber libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python upower pacman-contrib power-profiles-daemon gvfs cliphist hyprland hyprlock hypridle rofi-wayland kitty ttf-jetbrains-mono-nerd qt6-wayland qt5-wayland qt5ct grim slurp swappy
 ```
 I recommend also doing `yay -Syu #--noconfirm`
 ```bash
@@ -59,14 +59,6 @@ sudo mv /etc/xdg/menus/arch-applications.menu /etc/xdg/menus/applications.menu
 ```bash
 sudo pacman -Sy nm-connection-editor
 ```
-
-### Optional
-```bash
- sudo pacman -S --needed wireplumber libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python upower pacman-contrib power-profiles-daemon gvfs cliphist
-
-yay -S aylurs-gtk-shell
-```
-
 # Installation
 ```bash
 git clone https://github.com/Poellebob/hypr-dotfile-v1.git

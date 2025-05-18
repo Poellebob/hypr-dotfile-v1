@@ -29,7 +29,9 @@ meson compile -C build
 meson install -C build
 ```
 ***Official aur package***
-`yay -S ags-hyprpanel-git`
+```bash 
+yay -S ags-hyprpanel-git
+```
 
 ### Cosmetic
 **Cursors**
@@ -54,7 +56,7 @@ sudo update-desktop-database
 sudo mv /etc/xdg/menus/arch-applications.menu /etc/xdg/menus/applications.menu 
 ```
 ### For extra wifi settings install `nm-connection-editor`
-`sudo pacman -Sy nm-connection-editor`
+```sudo pacman -Sy nm-connection-editor```
 
 ### Optional
 ```bash
@@ -71,7 +73,9 @@ cp -r * ~/.config/
 ```
 # Config
 ## Wallpaper 
-`swww img <path/to/wall>`
+```bash
+swww img <path/to/wall>
+```
 This sets the wallpaper permenetly.
 
 You can of course change it by doing the same command.

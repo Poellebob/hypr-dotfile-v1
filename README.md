@@ -55,8 +55,10 @@ sudo pacman -Sy archlinux-xdg-menu xdg-desktop-portal-hyprland
 sudo update-desktop-database
 sudo mv /etc/xdg/menus/arch-applications.menu /etc/xdg/menus/applications.menu 
 ```
-### For extra wifi settings install `nm-connection-editor`
-```sudo pacman -Sy nm-connection-editor```
+### For extra wifi settings
+```bash
+sudo pacman -Sy nm-connection-editor
+```
 
 ### Optional
 ```bash

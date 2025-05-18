@@ -1,7 +1,7 @@
 {
-  "theme.font.name": "CommitMono Nerd Font Propo",
+  "theme.font.name": "Ubuntu Nerd Font",
   "theme.font.style": "normal",
-  "theme.font.label": "CommitMono Nerd Font Propo Bold",
+  "theme.font.label": "JetBrainsMono Nerd Font Bold",
   "theme.font.size": "1rem",
   "terminal": "kitty",
   "theme.bar.floating": false,
@@ -411,7 +411,7 @@
   "theme.osd.border.color": "#8ff0a4",
   "theme.bar.menus.card_radius": "1em",
   "bar.layouts": {
-    "0": {
+    "1": {
       "left": [
         "dashboard",
         "windowtitle",
@@ -422,7 +422,6 @@
         "volume",
         "network",
         "bluetooth",
-        "battery",
         "clock",
         "notifications"
       ],
@@ -447,7 +446,7 @@
   "menus.clock.time.military": true,
   "menus.clock.weather.unit": "metric",
   "menus.dashboard.shortcuts.left.shortcut4.command": "rofi -show drun -theme ~/.config/rofi/style.rasi",
-  "menus.dashboard.shortcuts.left.shortcut3.command": "discord-canary",
+  "menus.dashboard.shortcuts.left.shortcut3.command": "discord",
   "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Browser",
   "menus.dashboard.shortcuts.left.shortcut1.command": "zen-browser",
   "menus.dashboard.shortcuts.left.shortcut1.icon": "󰺕",
@@ -457,7 +456,7 @@
   "theme.font.weight": 600,
   "theme.bar.scaling": 90,
   "theme.notification.scaling": 100,
-  "scalingPriority": "gdk",
+  "scalingPriority": "hyprland",
   "menus.dashboard.shortcuts.right.shortcut1.command": "flatpak run io.github.MakovWait.Godots",
   "menus.dashboard.shortcuts.right.shortcut1.icon": "",
   "menus.dashboard.shortcuts.right.shortcut1.tooltip": "Godot",

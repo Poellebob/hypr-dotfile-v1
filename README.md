@@ -6,7 +6,7 @@
 ```bash
 sudo pacman -Syu hyprland hyprlock hypridle rofi-wayland kitty ttf-jetbrains-mono-nerd swww qt6-wayland qt5-wayland qt5ct grim slurp swappy cliphist
 ```
-I recomend also doing `yay -Syu #--noconfirm`
+I recommend also doing `yay -Syu #--noconfirm`
 ```bash
 yay -S pyprland qt6ct-kde
 ```

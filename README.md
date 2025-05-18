@@ -16,10 +16,11 @@ yay -S pyprland qt6ct-kde
 My fork makes it posseble to customize all the shourtcuts in the Dashbord.
 ```bash
 sudo pacman -Sy --needed wireplumber libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python upower pacman-contrib power-profiles-daemon gvfs wf-recorder meson npm nodejs ninja
-
-yay -Sy --needed aylurs-gtk-shell-git grimblast-git hyprpicker matugen-bin python-gpustat hyprsunset-git
-#--noconfirm
-
+```
+```bash
+yay -Sy --needed aylurs-gtk-shell-git grimblast-git hyprpicker matugen-bin python-gpustat hyprsunset-git #--noconfirm
+```
+```bash
 git clone https://github.com/Poellebob/HyprPanel.git
 cd HyprPanel
 npm install

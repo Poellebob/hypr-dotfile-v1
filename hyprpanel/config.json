@@ -482,5 +482,8 @@
   "theme.bar.buttons.workspaces.enableBorder": false,
   "theme.bar.buttons.windowtitle.enableBorder": false,
   "bar.workspaces.spacing": 1.5,
-  "bar.workspaces.ignored": "^(0|-([1-9]|[1-9][0-9]|100))$"
+  "bar.workspaces.ignored": "^(0|-([1-9]|[1-9][0-9]|100))$",
+  "menus.dashboard.shortcuts.right.shortcut2.command": "steam",
+  "menus.dashboard.shortcuts.right.shortcut2.icon": "󰓓",
+  "menus.dashboard.shortcuts.right.shortcut2.tooltip": "Its Steam you dumb shit"
 }

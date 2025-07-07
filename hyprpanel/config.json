@@ -435,7 +435,8 @@
         "dashboard"
       ],
       "middle": [
-        "windowtitle"
+        "windowtitle",
+        "clock"
       ],
       "right": [
         "workspaces"
@@ -457,9 +458,9 @@
   "theme.bar.scaling": 90,
   "theme.notification.scaling": 100,
   "scalingPriority": "hyprland",
-  "menus.dashboard.shortcuts.right.shortcut1.command": "flatpak run io.github.MakovWait.Godots",
-  "menus.dashboard.shortcuts.right.shortcut1.icon": "",
-  "menus.dashboard.shortcuts.right.shortcut1.tooltip": "Godot",
+  "menus.dashboard.shortcuts.right.shortcut1.command": "prismlauncher",
+  "menus.dashboard.shortcuts.right.shortcut1.icon": "󰍳",
+  "menus.dashboard.shortcuts.right.shortcut1.tooltip": "Minecraft",
   "menus.dashboard.shortcuts.right.shortcut3.icon": "",
   "menus.dashboard.shortcuts.right.shortcut3.command": "code",
   "menus.dashboard.shortcuts.right.shortcut3.tooltip": "VS code",
@@ -481,5 +482,14 @@
   "theme.bar.buttons.workspaces.enableBorder": false,
   "theme.bar.buttons.windowtitle.enableBorder": false,
   "bar.workspaces.spacing": 1.5,
-  "bar.workspaces.ignored": "^(0|-([1-9]|[1-9][0-9]|100))$"
+  "bar.workspaces.ignored": "^(0|-([1-9]|[1-9][0-9]|100))$",
+  "menus.dashboard.shortcuts.right.shortcut2.command": "steam",
+  "menus.dashboard.shortcuts.right.shortcut2.icon": "󰓓",
+  "menus.dashboard.shortcuts.right.shortcut2.tooltip": "Steam",
+  "menus.clock.time.hideSeconds": false,
+  "bar.clock.format": "%a %b %d  %H:%M:%S",
+  "theme.bar.buttons.media.enableBorder": false,
+  "bar.notifications.hideCountWhenZero": true,
+  "bar.notifications.show_total": true,
+  "menus.dashboard.powermenu.avatar.image": "/home/viggokh/Downloads/received_1241057307328993.jpeg"
 }

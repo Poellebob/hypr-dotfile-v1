@@ -491,5 +491,8 @@
   "theme.bar.buttons.media.enableBorder": false,
   "bar.notifications.hideCountWhenZero": true,
   "bar.notifications.show_total": true,
-  "menus.dashboard.powermenu.avatar.image": "/home/viggokh/Downloads/received_1241057307328993.jpeg"
+  "menus.dashboard.powermenu.avatar.image": "/home/viggokh/Downloads/received_1241057307328993.jpeg",
+  "bar.customModules.storage.paths": [
+    "/"
+  ]
 }

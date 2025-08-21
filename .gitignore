@@ -10,7 +10,7 @@
 !kitty/
 !kitty/**
 !nvim/
-!nim/**
+!nvim/**
 *-flags.conf
 
 !gtk-3.0/

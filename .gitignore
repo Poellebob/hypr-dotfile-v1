@@ -9,6 +9,9 @@
 !rofi/**
 !kitty/
 !kitty/**
+!nvim/
+!nvim/**
+*-flags.conf
 
 !gtk-3.0/
 !gtk-3.0/**

@@ -411,7 +411,7 @@
   "theme.osd.border.color": "#8ff0a4",
   "theme.bar.menus.card_radius": "1em",
   "bar.layouts": {
-    "0": {
+    "*": {
       "left": [
         "dashboard",
         "windowtitle",
@@ -429,17 +429,6 @@
       "right": [
         "workspaces",
         "power"
-      ]
-    },
-    "*": {
-      "left": [
-        "dashboard"
-      ],
-      "middle": [
-        "windowtitle"
-      ],
-      "right": [
-        "workspaces"
       ]
     }
   },
@@ -486,5 +475,15 @@
   "menus.dashboard.shortcuts.right.shortcut2.command": "steam",
   "menus.dashboard.shortcuts.right.shortcut2.icon": "󰓓",
   "menus.dashboard.shortcuts.right.shortcut2.tooltip": "Its Steam you dumb shit",
-  "bar.clock.format": "%a %b %d  %H:%M:%S"
+  "bar.clock.format": "%a %b %d  %H:%M:%S",
+  "bar.windowtitle.title_map": [
+    [
+      "geogebra*",
+      "",
+      "Geogebra"
+    ]
+  ],
+  "bar.customModules.storage.paths": [
+    "/"
+  ]
 }

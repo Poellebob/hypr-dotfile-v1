@@ -11,6 +11,8 @@
 !kitty/**
 !nvim/
 !nvim/**
+!quickshell/
+!quickshell/**
 !*-flags.conf
 
 !gtk-3.0/
